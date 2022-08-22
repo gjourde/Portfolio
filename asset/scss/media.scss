@@ -85,6 +85,11 @@
             font-size: $taille-police-corps - 6;
         }
 
+        .year {
+            text-align: center;
+        }
+
+
         progress[value] {
 
             height: 12px;
