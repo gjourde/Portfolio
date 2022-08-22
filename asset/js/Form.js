@@ -10,7 +10,7 @@ export class Form {
     }
 
     static NewFormationBox(year, desc) {
-        let FormationBox = $("<div></div>").addClass("studie-bloc").html(`<div class="year">${year}</div>
+        let FormationBox = $("<div></div>").addClass("studie-bloc").html(`<p class="year">${year}</p>
         <div class="description">
             ${desc}
         </div>`);
@@ -23,7 +23,7 @@ export class Form {
             desc += `<li>${elt.txt}</li>`
         });
 
-        let experienceBox = $("<div></div>").addClass("exp-bloc").html(`<div class="year">${year}</div>
+        let experienceBox = $("<div></div>").addClass("exp-bloc").html(`<p class="year">${year}</p>
         <div class="description">
             <h5>${name}</h5>
             <ul>${desc}</ul>

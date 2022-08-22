@@ -45,6 +45,10 @@
         text-align: start;
         width: 20%;
         font-size: $taille-police-corps;
+
+        br {
+            display: none;
+        }
     }
 
     .description {
@@ -84,6 +88,10 @@
         text-align: start;
         width: 20%;
         font-size: $taille-police-corps;
+
+        br {
+            display: none;
+        }
     }
 
     .description {

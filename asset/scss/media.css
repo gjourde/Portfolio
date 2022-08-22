@@ -72,9 +72,6 @@
     margin-right: 20px;
     font-size: 14px;
   }
-  .skill-bloc .year {
-    text-align: center;
-  }
   .skill-bloc progress[value] {
     height: 12px;
   }
@@ -86,11 +83,31 @@
     width: 100%;
   }
   .career p {
-    font-size: 20px;
+    font-size: 16px;
     width: 95%;
   }
   .studie-bloc {
     width: 90%;
+  }
+  .studie-bloc .year {
+    text-align: center;
+    font-size: 16px;
+  }
+  .studie-bloc .year br {
+    display: block;
+  }
+  .studie-bloc .description {
+    font-size: 16px;
+  }
+  .exp-bloc .year {
+    text-align: center;
+    font-size: 16px;
+  }
+  .exp-bloc .year br {
+    display: block;
+  }
+  .exp-bloc .description {
+    font-size: 16px;
   }
   #job-experience {
     width: 90%;
@@ -108,5 +125,11 @@
   .project-bloc .preview .description {
     width: auto;
     height: 100%;
+  }
+  .project-bloc .preview .description h5 {
+    font-size: 16px;
+  }
+  .project-bloc .preview .description p {
+    font-size: 16px;
   }
 }/*# sourceMappingURL=media.css.map */

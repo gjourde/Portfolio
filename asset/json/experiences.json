@@ -1,21 +1,21 @@
 {
     "studies": [
         {
-            "year": "2022 - 2023",
+            "year": "2022<br>-<br>2023",
             "desc": "DEVELOPPEUR WEB et WEB MOBILE, TP4-BAC+2, AFPA Territorial Digital 2022-2023, Certification professionnelle"
         },
         {
-            "year": "2006 - 2007",
+            "year": "2006<br>-<br>2007",
             "desc": "Licence Professionnelle Distribution Électrique et Automatisme, Université Joseph Fourrier – IUT 1, Grenoble"
         },
         {
-            "year": "2004 - 2006",
+            "year": "2004<br>-<br>2006",
             "desc": "DUT Génie Électrique et informatique industrielle - Option : Automatisme et Système, Université Joseph Fourrier – IUT 1, Grenoble"
         }
     ],
     "experiences": [
         {
-            "year": "2007 - 2019",
+            "year": "2007<br>-<br>2019",
             "name": "Automaticien, SARL ARVEN, Valence",
             "desc": [
                 {

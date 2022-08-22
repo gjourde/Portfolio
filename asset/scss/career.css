@@ -56,6 +56,9 @@
   width: 20%;
   font-size: 20px;
 }
+.studie-bloc .year br {
+  display: none;
+}
 .studie-bloc .description {
   text-align: start;
   width: 80%;
@@ -96,6 +99,9 @@
   text-align: start;
   width: 20%;
   font-size: 20px;
+}
+.exp-bloc .year br {
+  display: none;
 }
 .exp-bloc .description {
   display: flex;

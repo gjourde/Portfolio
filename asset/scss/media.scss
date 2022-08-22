@@ -85,11 +85,6 @@
             font-size: $taille-police-corps - 6;
         }
 
-        .year {
-            text-align: center;
-        }
-
-
         progress[value] {
 
             height: 12px;
@@ -109,7 +104,7 @@
     .career {
 
         p {
-            font-size: $taille-police-corps;
+            font-size: $taille-police-corps - 4;
             width: 95%;
 
         }
@@ -117,7 +112,38 @@
 
     .studie-bloc {
         width: 90%;
+
+        .year {
+            text-align: center;
+            font-size: $taille-police-corps - 4;
+
+            br {
+                display: block;
+            }
+        }
+
+        .description {
+            font-size: $taille-police-corps - 4;
+        }
     }
+
+    .exp-bloc {
+
+        .year {
+            text-align: center;
+            font-size: $taille-police-corps - 4;
+
+            br {
+                display: block;
+            }
+        }
+
+        .description {
+            font-size: $taille-police-corps - 4;
+        }
+    }
+
+
 
     #job-experience {
 
@@ -136,7 +162,16 @@
             .description {
                 width: auto;
                 height: 100%;
+
+                h5 {
+                    font-size: $taille-police-corps - 4;
+                }
+
+                p {
+                    font-size: $taille-police-corps - 4;
+                }
             }
+
         }
     }
 }
