@@ -1,0 +1,136 @@
+/*Import des variables mixin et media*/
+@import "variable";
+@import "mixin";
+
+/*Section welcome*/
+.welcome {
+    @include dispo-flex(flex, column, center, center);
+    height: auto;
+    padding-top: 64px;
+    min-height: $height-area;
+    overflow: hidden;
+
+    .span-welcome {
+        position: absolute;
+        top: $taille-menu-wds;
+    }
+}
+
+.presentation {
+    @include dispo-flex(flex, column, flex-start, start);
+    box-sizing: border-box;
+    overflow: hidden;
+    // width: 45%;
+    width: 100%;
+    margin-bottom: 20px;
+
+    h1 {
+        font-size: $taille-police-titre+10;
+        margin-bottom: 5px;
+        @include slideinAnim($slideTxtDuration, "slideH1", 0s);
+    }
+
+    h2 {
+        font-size: $taille-police-soustitre+10;
+        margin-top: 5px;
+        @include slideinAnim($slideTxtDuration, "slideH2", $slideTxtDelay);
+    }
+}
+
+.grp-speech {
+    //@include dispo-flex(flex, column, center, center);
+    overflow: hidden;
+    width: 100%;
+    margin-top: 15px;
+    //box-sizing: border-box;
+}
+
+#speech1 {
+    //@include dispo-flex(flex, column, center, center);
+    margin-top: 15px;
+    @include slideinAnim($slideTxtDuration, "sildeP1", $slideTxtDelay+1s);
+
+    p {
+        font-size: $taille-police-corps+10;
+
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+#speech2 {
+    //@include dispo-flex(flex, column, center, center);
+    margin-top: 15px;
+    @include slideinAnim($slideTxtDuration, "sildeP2", $slideTxtDelay+2s);
+
+    p {
+        font-size: $taille-police-corps+10;
+
+        margin-bottom: 5px;
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+#arrow {
+    @include dispo-flex(flex, row, center, center);
+}
+
+.arrow-next {
+    //margin-top: 5px;
+    animation-duration: 0.9s;
+    animation-fill-mode: none;
+    animation-name: bounce-top;
+
+    @keyframes bounce-top {
+        0% {
+
+            transform: translateY(-45px);
+            animation-timing-function: ease-in;
+        }
+
+        24% {}
+
+        40% {
+
+            transform: translateY(-24px);
+            animation-timing-function: ease-in;
+        }
+
+        65% {
+
+            transform: translateY(-12px);
+            animation-timing-function: ease-in;
+        }
+
+        82% {
+
+            transform: translateY(-6px);
+            animation-timing-function: ease-in;
+        }
+
+        93% {
+
+            transform: translateY(-4px);
+            animation-timing-function: ease-in;
+        }
+
+        25%,
+        55%,
+        75%,
+        87% {
+
+            transform: translateY(0px);
+            animation-timing-function: ease-out;
+        }
+
+        100% {
+
+            transform: translateY(0px);
+            animation-timing-function: ease-out;
+        }
+    }
+}

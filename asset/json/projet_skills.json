@@ -1,0 +1,24 @@
+{
+    "skills": [
+        {
+            "name": "Méthode AGILE",
+            "lvl": "80",
+            "icon": "fa-solid fa-location-dot fa-2xl"
+        },
+        {
+            "name": "Rédaction de cahier des charges",
+            "lvl": "75",
+            "icon": "fa-solid fa-location-dot fa-2xl"
+        },
+        {
+            "name": "Rédaction de analyse fonctionnelle",
+            "lvl": "85",
+            "icon": "fa-solid fa-location-dot fa-2xl"
+        },
+        {
+            "name": "Rédaction de compte-rendu",
+            "lvl": "90",
+            "icon": "fa-solid fa-location-dot fa-2xl"
+        }
+    ]
+}

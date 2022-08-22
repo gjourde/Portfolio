@@ -1,0 +1,32 @@
+{
+    "projects": [
+        {
+            "name": "Orbnb",
+            "src": "./asset/image/portfolio/orbnb.png",
+            "link": "https://gjourde.github.io/Orbnb/",
+            "desc1": "Page de recherche d'un site de voyage. Projet responsive axé sur l'utilisation des flex-box",
+            "desc2": "HTML5/CSS3, SCSS"
+        },
+        {
+            "name": "Formulaire au service client",
+            "src": "./asset/image/portfolio/javascript.png",
+            "link": "https://gjourde.github.io/Formulaire-service-client/",
+            "desc1": "Formulaire de contact avec contrôle des champs de saisie en javascript. Projet axé sur l'utilisation du javascript",
+            "desc2": "Javascript"
+        },
+        {
+            "name": "My Music",
+            "src": "./asset/image/portfolio/mymusic.png",
+            "link": "https://gjourde.github.io/MyMusic/",
+            "desc1": "Exemple d'interface pour un lecteur de musique en Bootstrap. Projet axé sur l'utilisation du Bootstrap",
+            "desc2": "HTML5, Bootstrap"
+        },
+        {
+            "name": "MasterMind",
+            "src": "./asset/image/portfolio/mastermind.png",
+            "link": "https://gjourde.github.io/Mastermind/",
+            "desc1": "Jeux du MasterMind. Projet axé sur l'utilisation de Bootstrap, Javascript et du Drag&Drop",
+            "desc2": "HTML5, Bootstrap, JavaScript, Drag&Drop"
+        }
+    ]
+}

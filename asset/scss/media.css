@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/*Import des variables mixin et media*/ /*Déclatation des variables*/
+/*Couleur*/
+/*Taille police*/
+/*variable global*/
+/*hauteur des zones de la page*/
+/*durée d'animation*/
+/*@mixin*/
+/*Tablette*/
+/*Smartphone*/
+@media screen and (max-width: 1199px) {
+  .banner-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 64px;
+    height: auto;
+  }
+  #burger-menu {
+    display: flex;
+  }
+  #menu {
+    display: none;
+  }
+  #menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+  }
+  #menu ul li {
+    margin-left: 0px;
+  }
+  #menu ul li:hover {
+    text-decoration: underline;
+  }
+  #menu ul li a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .logo-menu {
+    display: none;
+  }
+  .title-logo-menu {
+    display: none;
+  }
+  .presentation {
+    width: 100%;
+  }
+  .presentation h1,
+.presentation h2 {
+    font-size: 26px;
+  }
+  .presentation .grp-speech #speech1 p,
+.presentation .grp-speech #speech2 p {
+    font-size: 20px;
+  }
+  .background-welcome {
+    display: none;
+  }
+  #my-studies {
+    width: 95%;
+  }
+  .skill-bloc {
+    width: 95%;
+  }
+  .skill-bloc p {
+    margin-right: 20px;
+    font-size: 14px;
+  }
+  .skill-bloc progress[value] {
+    height: 12px;
+  }
+  .skill-lvl {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+  }
+  .career p {
+    font-size: 20px;
+    width: 95%;
+  }
+  .studie-bloc {
+    width: 90%;
+  }
+  #job-experience {
+    width: 90%;
+  }
+  .project-bloc .preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .project-bloc .preview .windows {
+    min-height: auto;
+  }
+  .project-bloc .preview .description {
+    width: auto;
+    height: 100%;
+  }
+}/*# sourceMappingURL=media.css.map */

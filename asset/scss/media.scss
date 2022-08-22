@@ -1,0 +1,137 @@
+/*Import des variables mixin et media*/
+@import "variable";
+@import "mixin";
+
+/*Tablette*/
+@media screen and (min-width: 1200px) and (max-device-width: 1300px) {}
+
+/*Smartphone*/
+@media screen and (max-width: 1199px) {
+
+    .banner-menu {
+        @include dispo-flex(flex, column, center, flex-start);
+        min-height: 64px;
+        height: auto;
+    }
+
+    #burger-menu {
+        display: flex;
+    }
+
+    #menu {
+        display: none;
+
+        ul {
+            @include dispo-flex(flex, column, center, flex-start);
+            padding-left: 10px;
+
+            li {
+                margin-left: 0px;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+
+                a {
+                    @include dispo-flex(flex, row, flex-start, center);
+                }
+            }
+        }
+    }
+
+    .logo-menu {
+        display: none;
+    }
+
+    .title-logo-menu {
+        display: none;
+    }
+
+    .presentation {
+        width: 100%;
+
+        h1,
+        h2 {
+            font-size: $taille-police-titre
+        }
+
+        .grp-speech {
+
+            #speech1,
+            #speech2 {
+                p {
+                    font-size: $taille-police-corps
+                }
+
+            }
+        }
+    }
+
+    .background-welcome {
+        display: none;
+    }
+
+    #my-studies {
+
+        width: 95%;
+    }
+
+
+    .skill-bloc {
+        width: 95%;
+
+        p {
+            margin-right: 20px;
+            font-size: $taille-police-corps - 6;
+        }
+
+        progress[value] {
+
+            height: 12px;
+        }
+    }
+
+    .skill-lvl {
+        @include dispo-flex(flex, column, space-between, start);
+        width: 100%;
+    }
+
+    %propiete-comp {
+
+        width: 100%;
+    }
+
+    .career {
+
+        p {
+            font-size: $taille-police-corps;
+            width: 95%;
+
+        }
+    }
+
+    .studie-bloc {
+        width: 90%;
+    }
+
+    #job-experience {
+
+        width: 90%;
+    }
+
+    .project-bloc {
+        .preview {
+            @include dispo-flex(flex, column, center, center);
+            box-sizing: border-box;
+
+            .windows {
+                min-height: auto;
+            }
+
+            .description {
+                width: auto;
+                height: 100%;
+            }
+        }
+    }
+}

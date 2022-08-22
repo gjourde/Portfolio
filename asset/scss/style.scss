@@ -1,0 +1,240 @@
+/*Import des variables mixin et media*/
+@import "variable";
+@import "mixin";
+@import "welcome";
+@import "skill";
+@import "career";
+@import "portfolio";
+
+/*Déclaration de la police*/
+@font-face {
+    font-family: "poppins-regular";
+    src: url("../fonts/poppins_regular.ttf");
+}
+
+/*Main*/
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+/*Body*/
+body {
+    font-family: "poppins-regular";
+    // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+}
+
+/*Entête*/
+.banner-menu {
+    @include dispo-flex(flex, row, flex-start, center);
+    background-color: $gris-sombre-menu;
+    width: 100%;
+    height: 64px;
+
+    opacity: 0.99;
+
+    /*Menu en position fixe*/
+    position: fixed;
+    left: 0;
+
+    /*Ombre du menu*/
+    box-shadow: 0px 2px 3px 1px #2f2f2f;
+}
+
+#burger-menu {
+    @include dispo-flex(flex, column, center, center);
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 64px;
+    display: none;
+
+    cursor: pointer;
+}
+
+.lgn1,
+.lgn2,
+.lgn3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 3px 0;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.anim-sandwich .lgn1 {
+    transform: rotate(45deg) translateX(6px) translateY(10px);
+}
+
+.anim-sandwich .lgn2 {
+    opacity: 0;
+}
+
+.anim-sandwich .lgn3 {
+    transform: rotate(-45deg) translateX(5px) translateY(-10px);
+}
+
+/*Logo*/
+.title-logo-menu {
+    @include dispo-flex(flex, row, center, center);
+    width: 25%;
+
+    a {
+        .logo-menu {
+            /*Cercle blanc*/
+            border: solid 2px $couleur-police-menu;
+            border-radius: 30px;
+            padding: 5px;
+
+            /*image en 32x32*/
+            width: 32px;
+            height: 32px;
+
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+
+    /*Titre*/
+    h1 {
+        color: $couleur-police-menu;
+        font-size: $taille-police-menu;
+    }
+}
+
+#menu {
+    display: none;
+    justify-self: flex-end;
+    width: 75%;
+
+    ul {
+        list-style: none;
+        @include dispo-flex(flex, row, center, center);
+
+        margin-right: 20px;
+
+        li {
+            width: 20%;
+
+            a {
+                @include dispo-flex(flex, row, center, center);
+                color: $couleur-police-menu;
+
+                font-size: $taille-police-menu;
+                text-decoration: none;
+
+                text-align: center;
+
+                &:hover {
+                    color: $couleur-hover-police-menu;
+                }
+            }
+        }
+    }
+}
+
+.contact {
+    @include dispo-flex(flex, column, center, center);
+    min-height: $height-area;
+
+    .marquer-contact {
+        position: relative;
+        top: $taille-menu-wds;
+    }
+
+    p {
+        font-size: $taille-police-corps;
+        text-align: center;
+    }
+}
+
+.social-network {
+    @include dispo-flex(flex, column, center, flex-start);
+
+    span {
+
+        a {
+            text-decoration: none;
+            font-size: $taille-police-corps;
+            color: $couleur-texte-lien;
+
+            &:hover {
+                text-decoration: underline;
+                text-decoration-thickness: 2px;
+            }
+
+            i {
+                /*Cercle noir*/
+                border: solid 2px $couleur-texte-lien;
+                border-radius: 30px;
+                padding: 5px;
+
+                /*Taille de la zone*/
+                width: 20px;
+                height: 20px;
+
+                /*Taille icone, couleur et centrage*/
+                color: $couleur-texte-lien;
+                font-size: 20px;
+                text-align: center;
+
+                margin-right: 15px;
+            }
+        }
+
+        margin-bottom: 20px;
+    }
+}
+
+footer {
+    @include dispo-flex(flex, row, space-around, center);
+    background-color: $gris-sombre-menu;
+    height: 40px;
+
+    /*Ombre du menu*/
+    box-shadow: 0px -2px 3px 1px #323232;
+
+    p {
+        width: 50%;
+        margin-left: 30px;
+        font-size: 12px;
+        color: $couleur-police-menu;
+        font-style: italic;
+    }
+
+    div {
+        @include dispo-flex(flex, row, flex-end, center);
+        width: 50%;
+
+        a {
+            text-decoration: none;
+
+            i {
+                /*Cercle noir*/
+                border: solid 2px $couleur-police-menu;
+                border-radius: 30px;
+                padding: 4px;
+
+                /*Taille de la zone*/
+                width: 14px;
+                height: 14px;
+
+                /*Taille icone,couleur et centrage*/
+                font-size: 14px;
+                text-align: center;
+                vertical-align: text-top;
+                color: $couleur-police-menu;
+
+                margin-right: 15px;
+            }
+        }
+    }
+}
+
+/*Import des autres pages*/
+@import "login";
+@import "logout";
+
+/*Import des media-query*/
+@import "media";

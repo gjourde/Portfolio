@@ -1,0 +1,45 @@
+/*@mixin*/
+@mixin img-hauteur($valeur-hauteur) {
+    width: 100%;
+    height: $valeur-hauteur;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+
+@mixin dispo-flex($d-flex, $f-direction, $justify-c, $align-i) {
+    display: $d-flex;
+    flex-direction: $f-direction;
+    justify-content: $justify-c;
+    align-items: $align-i;
+}
+
+@mixin slideinAnim($animDuration, $animName, $animDelay) {
+    animation-duration: $animDuration;
+    animation-fill-mode: both;
+    animation-delay: $animDelay;
+    animation-name: $animName;
+    text-align: center;
+    width: 100%;
+
+    @keyframes #{$animName} {
+
+        // from {
+        //     display: none;
+        //     margin-left: 0px;
+        //     width: 200%;
+        // }
+
+        // to {
+        //     display: contents;
+        //     margin-left: 0px;
+        //     width: 100%;
+        // }
+        0% {
+            transform: translateX(110vh);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+}

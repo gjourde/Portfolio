@@ -1,0 +1,107 @@
+/*Import des variables mixin et media*/
+@import "variable";
+@import "mixin";
+
+.portfolio {
+    @include dispo-flex(flex, column, flex-start, center);
+    background-color: $couleur-font-section;
+    min-height: $height-area;
+
+    .marquer-portfolio {
+        position: relative;
+        top: $taille-menu-wds;
+    }
+
+    h1 {
+        font-size: $taille-police-titre;
+    }
+}
+
+%prop-btn {
+    padding: 0px;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    margin: 3px;
+}
+
+.project-bloc {
+    @include dispo-flex(flex, column, center, center);
+    background-color: $couleur-font-section;
+
+    h3 {
+        font-size: $taille-police-soustitre;
+    }
+
+    .preview {
+        @include dispo-flex(flex, row, center, center);
+
+        .windows {
+            @include dispo-flex(flex, column, space-between, start);
+            background-color: $couleur-bloc-section;
+            border-radius: 3px;
+            margin: 15px;
+            padding: 0px;
+            min-height: 600px;
+
+            &:hover {
+                box-shadow: 0px 0px 6px 3px #bbbbbb;
+            }
+
+            .windows-banner {
+                @include dispo-flex(flex, row, flex-start, start);
+                margin-top: 5px;
+                margin-left: 20px;
+                padding: 0px;
+                background-color: $couleur-bloc-section;
+
+                .btn-red {
+                    @extend %prop-btn;
+                    background-color: red;
+                }
+
+                .btn-yellow {
+                    @extend %prop-btn;
+                    background-color: orange;
+                }
+
+                .btn-green {
+                    @extend %prop-btn;
+                    background-color: green;
+                }
+            }
+
+            a {
+                margin: 15px;
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .description {
+            @include dispo-flex(flex, column, flex-start, start);
+            border-radius: 3px;
+            background-color: $couleur-bloc-section;
+            margin: 15px;
+            width: 40%;
+            height: 600px;
+
+            h5 {
+                font-size: $taille-police-corps;
+                margin: 10px;
+            }
+
+            p {
+                font-size: $taille-police-corps;
+                margin: 10px;
+            }
+
+            &:hover {
+                box-shadow: 0px 0px 6px 3px #bbbbbb;
+            }
+        }
+    }
+}

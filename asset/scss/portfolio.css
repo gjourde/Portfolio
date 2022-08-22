@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/*Import des variables mixin et media*/ /*Déclatation des variables*/
+/*Couleur*/
+/*Taille police*/
+/*variable global*/
+/*hauteur des zones de la page*/
+/*durée d'animation*/
+/*@mixin*/
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #F7F7F7;
+  min-height: 100vh;
+}
+.portfolio .marquer-portfolio {
+  position: relative;
+  top: -64px;
+}
+.portfolio h1 {
+  font-size: 26px;
+}
+
+.project-bloc .preview .windows .windows-banner .btn-green, .project-bloc .preview .windows .windows-banner .btn-yellow, .project-bloc .preview .windows .windows-banner .btn-red {
+  padding: 0px;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  margin: 3px;
+}
+
+.project-bloc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F7F7;
+}
+.project-bloc h3 {
+  font-size: 24px;
+}
+.project-bloc .preview {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.project-bloc .preview .windows {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  background-color: #ffffff;
+  border-radius: 3px;
+  margin: 15px;
+  padding: 0px;
+  min-height: 600px;
+}
+.project-bloc .preview .windows:hover {
+  box-shadow: 0px 0px 6px 3px #bbbbbb;
+}
+.project-bloc .preview .windows .windows-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+  margin-top: 5px;
+  margin-left: 20px;
+  padding: 0px;
+  background-color: #ffffff;
+}
+.project-bloc .preview .windows .windows-banner .btn-red {
+  background-color: red;
+}
+.project-bloc .preview .windows .windows-banner .btn-yellow {
+  background-color: orange;
+}
+.project-bloc .preview .windows .windows-banner .btn-green {
+  background-color: green;
+}
+.project-bloc .preview .windows a {
+  margin: 15px;
+}
+.project-bloc .preview .windows a img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.project-bloc .preview .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin: 15px;
+  width: 40%;
+  height: 600px;
+}
+.project-bloc .preview .description h5 {
+  font-size: 20px;
+  margin: 10px;
+}
+.project-bloc .preview .description p {
+  font-size: 20px;
+  margin: 10px;
+}
+.project-bloc .preview .description:hover {
+  box-shadow: 0px 0px 6px 3px #bbbbbb;
+}/*# sourceMappingURL=portfolio.css.map */

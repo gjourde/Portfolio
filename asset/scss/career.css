@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/*Import des variables mixin et media*/ /*Déclatation des variables*/
+/*Couleur*/
+/*Taille police*/
+/*variable global*/
+/*hauteur des zones de la page*/
+/*durée d'animation*/
+/*@mixin*/
+/*Section career*/
+.career {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+}
+.career .span-career {
+  position: relative;
+  top: -64px;
+}
+.career p {
+  font-size: 20px;
+  width: 60%;
+  text-align: center;
+}
+
+#my-studies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 80%;
+}
+#my-studies h1 {
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+.studie-bloc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F7F7F7;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px 5px 15px 5px;
+  width: 100%;
+}
+.studie-bloc .year {
+  text-align: start;
+  width: 20%;
+  font-size: 20px;
+}
+.studie-bloc .description {
+  text-align: start;
+  width: 80%;
+  font-size: 20px;
+}
+.studie-bloc:hover {
+  box-shadow: 0px 0px 6px 3px #bbbbbb;
+}
+
+#job-experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 80%;
+}
+#job-experience h1 {
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+.exp-bloc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F7F7F7;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px 5px 15px 5px;
+  width: 100%;
+}
+.exp-bloc .year {
+  text-align: start;
+  width: 20%;
+  font-size: 20px;
+}
+.exp-bloc .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: start;
+  width: 80%;
+  font-size: 20px;
+}
+.exp-bloc:hover {
+  box-shadow: 0px 0px 6px 3px #bbbbbb;
+}/*# sourceMappingURL=career.css.map */

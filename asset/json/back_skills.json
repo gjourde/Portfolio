@@ -1,0 +1,29 @@
+{
+    "skills": [
+        {
+            "name": "MCD/MLD",
+            "lvl": "80",
+            "icon": "fa-solid fa-book fa-2xl"
+        },
+        {
+            "name": "MySQL",
+            "lvl": "0",
+            "icon": "fa-solid fa-database fa-2xl"
+        },
+        {
+            "name": "PHP",
+            "lvl": "0",
+            "icon": "fa-brands fa-php fa-2xl"
+        },
+        {
+            "name": "NodeJs",
+            "lvl": "0",
+            "icon": "fa-brands fa-node-js fa-2xl"
+        },
+        {
+            "name": "ANGULAR",
+            "lvl": "0",
+            "icon": "fa-brands fa-angular fa-2xl"
+        }
+    ]
+}

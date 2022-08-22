@@ -1,0 +1,89 @@
+/*Import des variables mixin et media*/
+@import "variable";
+@import "mixin";
+
+/*Section skill*/
+.skill {
+    @include dispo-flex(flex, column, flex-start, center);
+    background-color: $couleur-font-section;
+    min-height: $height-area;
+    width: 100%;
+
+    .span-skill {
+        position: relative;
+        top: $taille-menu-wds;
+    }
+}
+
+.skill-lvl {
+    @include dispo-flex(flex, row, space-between, start);
+    width: 100%;
+}
+
+%propiete-comp {
+    @include dispo-flex(flex, column, center, center);
+    width: 50%;
+
+    h3 {
+        text-align: center;
+    }
+}
+
+#front-skill,
+#back-skill {
+    @extend %propiete-comp;
+
+}
+
+.sbloc {
+    @include dispo-flex(flex, column, center, center);
+    width: 100%;
+}
+
+.skill-bloc {
+    @include dispo-flex(flex, row, space-between, center);
+    width: 80%;
+    background-color: $couleur-bloc-section;
+    border-radius: 3px;
+    margin: 5px;
+    box-sizing: border-box;
+
+    i {
+        margin-right: 20px;
+        margin-left: 10px;
+        width: 10%;
+        text-align: center;
+    }
+
+    p {
+        font-weight: bold;
+        margin-right: 40px;
+        width: 30%;
+        font-size: $taille-police-corps;
+    }
+
+    progress[value] {
+        appearance: none;
+        height: 18px;
+        width: 40%;
+        margin-right: 10px;
+    }
+
+    progress[value]::-webkit-progress-bar {
+        background-color: $couleur-font-section;
+        border-radius: 30px;
+        box-shadow: 0 1px 4px #79797940 inset;
+    }
+
+    progress[value]::-webkit-progress-value {
+        background-color: $couleur-texte-lien;
+
+
+        border-radius: 30px;
+        background-size: 35px 20px, 100% 100%, 100% 100%;
+    }
+
+    &:hover {
+        box-shadow: 0px 0px 6px 3px #bbbbbb;
+    }
+}

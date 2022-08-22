@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*Import des variables mixin et media*/ /*Déclatation des variables*/
+/*Couleur*/
+/*Taille police*/
+/*variable global*/
+/*hauteur des zones de la page*/
+/*durée d'animation*/
+/*@mixin*/
+.box-signout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.logout p {
+  font-size: 20px;
+}
+.logout #btn-signout {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: #474747;
+  color: #ffffff;
+  font-size: 20px;
+  border: solid 3px black;
+  cursor: pointer;
+}
+.logout #btn-signout:hover {
+  box-shadow: 0px 0px 6px 3px #bbbbbb;
+}
+.logout #btn-signout:active {
+  background-color: #232323;
+  box-shadow: 0px 0px 6px 3px #bbbbbb;
+}
+.logout .Err-msg {
+  background-color: #F7F7F7;
+  text-align: center;
+  width: 150%;
+}/*# sourceMappingURL=logout.css.map */

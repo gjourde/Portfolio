@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--   ***************************************************************  -->
+    <!--                            ajax - jquery                           -->
+    <!--   ***************************************************************  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--   ***************************************************************  -->
+    <!--                               Favicon                              -->
+    <!--   ***************************************************************  -->
+    <link rel="apple-touch-icon" href="./asset/favicon_io/apple-touch-icon.png">
+    <link rel="apple-touch-startup-image" sizes="180x180" href="./asset/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./asset/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./asset/favicon_io/favicon-16x16.png">
+    <!-- <link rel="manifest" href="./asset/favicon_io/site.webmanifest"> -->
+
+    <!--   ***************************************************************  -->
+    <!--                          icone fontawesome                         -->
+    <!--   ***************************************************************  -->
+    <script src="https://kit.fontawesome.com/373bc4ed0b.js" crossorigin="anonymous"></script>
+
+    <!--   ***************************************************************  -->
+    <!--                              style.css                             -->
+    <!--   ***************************************************************  -->
+    <link rel="stylesheet" href="./asset/scss/style.css">
+
+    <title>Guillaume JOURDE</title>
+</head>
+
+<body>
+    <header>
+        <!--   ***************************************************************  -->
+        <!--                               Entête                               -->
+        <!--   ***************************************************************  -->
+        <div class="banner-menu">
+            <div id="burger-menu" state="false">
+                <div class="lgn1"></div>
+                <div class="lgn2"></div>
+                <div class="lgn3"></div>
+            </div>
+            <div class="title-logo-menu">
+                <a href="#">
+                    <!-- <a href="login.html"> -->
+                    <img class="logo-menu" src="./asset/image/logo.png" alt="image logo">
+                </a>
+                <h1>Guillaume JOURDE</h1>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="#welcome">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="#skill">Compétences</a>
+                    </li>
+                    <li>
+                        <a href="#career">Parcours</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!--   ***************************************************************  -->
+        <!--                                Main                                -->
+        <!--   ***************************************************************  -->
+        <section class="welcome">
+            <span class="span-welcome" id="welcome"></span>
+            <div class="presentation">
+                <h1>Bonjour</h1>
+                <h2>et bienvenue !</h2>
+                <div class="grp-speech">
+                    <div id="speech1">
+                        <p>Je suis</p>
+                        <p><strong>Guillaume JOURDE</strong></p>
+                    </div>
+                    <div id="speech2">
+                        <p>Je suis un <strong>développeur web et web mobile Full-Stack</strong></p>
+                        <p>issus du monde de l'industrie</p>
+                    </div>
+                </div>
+            </div>
+            <div id="arrow">
+                <i class="fa-solid fa-angle-down fa-5x"></i>
+            </div>
+        </section>
+        <section class="skill">
+            <span class="span-skill" id="skill"></span>
+            <h1>Mes compétences</h1>
+            <h2>Langage</h2>
+            <div class="skill-lvl">
+                <div id="front-skill">
+                    <h3>Front-end</h3>
+                    <div class="sbloc">
+                    </div>
+                </div>
+                <div id="back-skill">
+                    <h3>Back-end</h3>
+                    <div class="sbloc">
+                    </div>
+                </div>
+            </div>
+            <h2>Gestion de projets</h2>
+            <div id=projet-skill class="sbloc">
+            </div>
+        </section>
+        <section class="career">
+            <span class="span-career" id="career"></span>
+            <h1>Mon parcours</h1>
+            <p>
+                Bonjour, <br>
+                Automaticien de formation, j'ai consacré 13 ans de ma carrière à l'automatisme. <br>
+                Je me suis naturellement intérésé au développement informatique. <br><br>
+
+                J’ai acquis dans l’industrie la maitrise de la gestion projet en menant à bien de nombreux développement
+                d’applications sous WINDEV. <br><br>
+
+                Dans le cadre de ma formation je suis en recherche d’un stage pour mettre en pratique et développer mes
+                compétences. <br><br>
+
+                Ce stage se déroulera du 14 novembre 2020 au 27 janvier 2023. <br>
+                Modalité du stage : Conventionné, non rémunéré.
+            </p>
+            <div id="my-studies">
+                <h1>Formation</h1>
+            </div>
+            <div id="job-experience">
+                <h1>Expériences</h1>
+            </div>
+        </section>
+        <section class="portfolio">
+            <span class="marquer-portfolio" id="portfolio"></span>
+            <h1>Portfolio</h1>
+        </section>
+        <section class="contact">
+            <span class="marquer-contact" id="contact"></span>
+            <h1>Me contacter</h1>
+            <img class="photo" src="">
+            <p>Guillaume JOURDE<br>
+                06.32.59.44.33
+            </p>
+            <div class="social-network">
+                <span>
+                    <a href="mailto:gjourde.devweb@gmail.com" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                        gjourde.devweb@gmail.com
+                    </a>
+                </span>
+                <span>
+                    <!-- <a href="" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                        Lien twitter
+                    </a> -->
+                </span>
+                <span>
+                    <a href="https://www.linkedin.com/in/guillaume-jourde-devweb" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                        guillaume-jourde-devweb
+                    </a>
+                </span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!--   ***************************************************************  -->
+        <!--                               footer                               -->
+        <!--   ***************************************************************  -->
+        <p>Ce site est réalisé par Guillaume JOURDE</p>
+        <div>
+            <a href="mailto:gjourde.devweb@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <!-- <a href="" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a> -->
+            <a href="https://www.linkedin.com/in/guillaume-jourde-devweb" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!--   ***************************************************************  -->
+    <!--                              script.js                             -->
+    <!--   ***************************************************************  -->
+    <script src="./asset/js/app.js" type="module" defer></script>
+</body>
+
+</html>

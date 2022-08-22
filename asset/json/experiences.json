@@ -1,0 +1,39 @@
+{
+    "studies": [
+        {
+            "year": "2022 - 2023",
+            "desc": "DEVELOPPEUR WEB et WEB MOBILE, TP4-BAC+2, AFPA Territorial Digital 2022-2023, Certification professionnelle"
+        },
+        {
+            "year": "2006 - 2007",
+            "desc": "Licence Professionnelle Distribution Électrique et Automatisme, Université Joseph Fourrier – IUT 1, Grenoble"
+        },
+        {
+            "year": "2004 - 2006",
+            "desc": "DUT Génie Électrique et informatique industrielle - Option : Automatisme et Système, Université Joseph Fourrier – IUT 1, Grenoble"
+        }
+    ],
+    "experiences": [
+        {
+            "year": "2007 - 2019",
+            "name": "Automaticien, SARL ARVEN, Valence",
+            "desc": [
+                {
+                    "txt": "Analyser les besoins clients au niveau informatique industrielle."
+                },
+                {
+                    "txt": "Présenter des maquettes projets aux clients."
+                },
+                {
+                    "txt": "Rédiger l’analyse fonctionnelle en fonction du cahier des charges des clients."
+                },
+                {
+                    "txt": "Réaliser la supervision sous WINDEV."
+                },
+                {
+                    "txt": "Faire la recette des projets en fonction du cahier des charges avec les clients sur site."
+                }
+            ]
+        }
+    ]
+}
