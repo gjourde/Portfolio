@@ -23,17 +23,6 @@
 
     @keyframes #{$animName} {
 
-        // from {
-        //     display: none;
-        //     margin-left: 0px;
-        //     width: 200%;
-        // }
-
-        // to {
-        //     display: contents;
-        //     margin-left: 0px;
-        //     width: 100%;
-        // }
         0% {
             transform: translateX(150vh);
         }
