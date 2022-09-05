@@ -7,12 +7,12 @@
         },
         {
             "name": "MySQL",
-            "lvl": "0",
+            "lvl": "80",
             "icon": "fa-solid fa-database fa-2xl"
         },
         {
             "name": "PHP",
-            "lvl": "0",
+            "lvl": "75",
             "icon": "fa-brands fa-php fa-2xl"
         },
         {
