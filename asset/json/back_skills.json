@@ -17,17 +17,12 @@
         },
         {
             "name": "MVC",
-            "lvl": "25",
+            "lvl": "60",
             "icon": "fa-solid fa-book fa-2xl"
         },
         {
-            "name": "NodeJs",
-            "lvl": "0",
-            "icon": "fa-brands fa-node-js fa-2xl"
-        },
-        {
             "name": "Symfony",
-            "lvl": "0",
+            "lvl": "65",
             "icon": "fa-brands fa-symfony fa-2xl"
         }
     ]

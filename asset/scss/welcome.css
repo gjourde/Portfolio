@@ -35,8 +35,8 @@
 .presentation h1 {
   font-size: 36px;
   margin-bottom: 5px;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-animation-delay: 0s;
@@ -65,8 +65,8 @@
 .presentation h2 {
   font-size: 34px;
   margin-top: 5px;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-animation-delay: 1s;
@@ -101,8 +101,8 @@
 
 #speech1 {
   margin-top: 15px;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-animation-delay: 2s;
@@ -138,8 +138,8 @@
 
 #speech2 {
   margin-top: 15px;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-animation-delay: 3s;

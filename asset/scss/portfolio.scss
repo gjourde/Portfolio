@@ -37,7 +37,7 @@
         @include dispo-flex(flex, row, center, center);
 
         .windows {
-            @include dispo-flex(flex, column, space-between, start);
+            @include dispo-flex(flex, column, flex-start, start);
             background-color: $couleur-bloc-section;
             border-radius: 3px;
             margin: 15px;
