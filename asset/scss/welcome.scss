@@ -27,13 +27,13 @@
     h1 {
         font-size: $taille-police-titre+10;
         margin-bottom: 5px;
-        @include slideinAnim($slideTxtDuration, "slideH1", 0s);
+        @include slideinAnim($slideTxtDuration, slide1, 0s);
     }
 
     h2 {
         font-size: $taille-police-soustitre+10;
         margin-top: 5px;
-        @include slideinAnim($slideTxtDuration, "slideH2", $slideTxtDelay);
+        @include slideinAnim($slideTxtDuration, slide2, $slideTxtDelay);
     }
 }
 
@@ -48,7 +48,7 @@
 #speech1 {
     //@include dispo-flex(flex, column, center, center);
     margin-top: 15px;
-    @include slideinAnim($slideTxtDuration, "sildeP1", $slideTxtDelay+1s);
+    @include slideinAnim($slideTxtDuration, slide3, $slideTxtDelay+0.5s);
 
     p {
         font-size: $taille-police-corps+10;
@@ -63,7 +63,7 @@
 #speech2 {
     //@include dispo-flex(flex, column, center, center);
     margin-top: 15px;
-    @include slideinAnim($slideTxtDuration, "sildeP2", $slideTxtDelay+2s);
+    @include slideinAnim($slideTxtDuration, slide4, $slideTxtDelay+1s);
 
     p {
         font-size: $taille-police-corps+10;

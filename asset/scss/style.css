@@ -41,27 +41,14 @@
 .presentation h1 {
   font-size: 36px;
   margin-bottom: 5px;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-name: "slideH1";
-          animation-name: "slideH1";
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 0s;
+  animation-name: slide1;
   text-align: center;
   width: 100%;
-  z-index: -1;
 }
-@-webkit-keyframes slideH1 {
-  0% {
-    transform: translateX(150vh);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes slideH1 {
+@keyframes slide1 {
   0% {
     transform: translateX(150vh);
   }
@@ -72,27 +59,14 @@
 .presentation h2 {
   font-size: 34px;
   margin-top: 5px;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-name: "slideH2";
-          animation-name: "slideH2";
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+  animation-name: slide2;
   text-align: center;
   width: 100%;
-  z-index: -1;
 }
-@-webkit-keyframes slideH2 {
-  0% {
-    transform: translateX(150vh);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes slideH2 {
+@keyframes slide2 {
   0% {
     transform: translateX(150vh);
   }
@@ -109,27 +83,14 @@
 
 #speech1 {
   margin-top: 15px;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-name: "sildeP1";
-          animation-name: "sildeP1";
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+  animation-name: slide3;
   text-align: center;
   width: 100%;
-  z-index: -1;
 }
-@-webkit-keyframes sildeP1 {
-  0% {
-    transform: translateX(150vh);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes sildeP1 {
+@keyframes slide3 {
   0% {
     transform: translateX(150vh);
   }
@@ -143,35 +104,18 @@
   margin-top: 5px;
   margin-left: 10px;
   margin-right: 10px;
-  z-index: -1;
-}
-#speech1 p strong {
-  z-index: -1;
 }
 
 #speech2 {
   margin-top: 15px;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-  -webkit-animation-name: "sildeP2";
-          animation-name: "sildeP2";
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-delay: 1.5s;
+  animation-name: slide4;
   text-align: center;
   width: 100%;
-  z-index: -1;
 }
-@-webkit-keyframes sildeP2 {
-  0% {
-    transform: translateX(150vh);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes sildeP2 {
+@keyframes slide4 {
   0% {
     transform: translateX(150vh);
   }
@@ -185,10 +129,6 @@
   margin-top: 5px;
   margin-left: 10px;
   margin-right: 10px;
-  z-index: -1;
-}
-#speech2 p strong {
-  z-index: -1;
 }
 
 #arrow {
@@ -199,86 +139,38 @@
 }
 
 .arrow-next {
-  -webkit-animation-duration: 0.9s;
-          animation-duration: 0.9s;
-  -webkit-animation-fill-mode: none;
-          animation-fill-mode: none;
-  -webkit-animation-name: bounce-top;
-          animation-name: bounce-top;
-  z-index: -1;
-}
-@-webkit-keyframes bounce-top {
-  0% {
-    transform: translateY(-45px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  40% {
-    transform: translateY(-24px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  65% {
-    transform: translateY(-12px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  82% {
-    transform: translateY(-6px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  93% {
-    transform: translateY(-4px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
-  }
-  25%, 55%, 75%, 87% {
-    transform: translateY(0px);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
-  100% {
-    transform: translateY(0px);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
-  }
+  animation-duration: 0.9s;
+  animation-fill-mode: none;
+  animation-name: bounce-top;
 }
 @keyframes bounce-top {
   0% {
     transform: translateY(-45px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   40% {
     transform: translateY(-24px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   65% {
     transform: translateY(-12px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   82% {
     transform: translateY(-6px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   93% {
     transform: translateY(-4px);
-    -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   25%, 55%, 75%, 87% {
     transform: translateY(0px);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
   100% {
     transform: translateY(0px);
-    -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
 }
 
@@ -877,11 +769,11 @@ footer div a i {
     width: 100%;
   }
   .presentation h1,
-.presentation h2 {
+  .presentation h2 {
     font-size: 26px;
   }
   .presentation .grp-speech #speech1 p,
-.presentation .grp-speech #speech2 p {
+  .presentation .grp-speech #speech2 p {
     font-size: 20px;
   }
   .background-welcome {
@@ -908,7 +800,7 @@ footer div a i {
     width: 100%;
   }
   #front-skill,
-#back-skill {
+  #back-skill {
     width: 100%;
   }
   .career p {

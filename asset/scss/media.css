@@ -52,11 +52,11 @@
     width: 100%;
   }
   .presentation h1,
-.presentation h2 {
+  .presentation h2 {
     font-size: 26px;
   }
   .presentation .grp-speech #speech1 p,
-.presentation .grp-speech #speech2 p {
+  .presentation .grp-speech #speech2 p {
     font-size: 20px;
   }
   .background-welcome {
