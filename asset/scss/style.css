@@ -51,6 +51,7 @@
           animation-name: "slideH1";
   text-align: center;
   width: 100%;
+  z-index: -1;
 }
 @-webkit-keyframes slideH1 {
   0% {
@@ -81,6 +82,7 @@
           animation-name: "slideH2";
   text-align: center;
   width: 100%;
+  z-index: -1;
 }
 @-webkit-keyframes slideH2 {
   0% {
@@ -117,6 +119,7 @@
           animation-name: "sildeP1";
   text-align: center;
   width: 100%;
+  z-index: -1;
 }
 @-webkit-keyframes sildeP1 {
   0% {
@@ -140,6 +143,10 @@
   margin-top: 5px;
   margin-left: 10px;
   margin-right: 10px;
+  z-index: -1;
+}
+#speech1 p strong {
+  z-index: -1;
 }
 
 #speech2 {
@@ -154,6 +161,7 @@
           animation-name: "sildeP2";
   text-align: center;
   width: 100%;
+  z-index: -1;
 }
 @-webkit-keyframes sildeP2 {
   0% {
@@ -177,6 +185,10 @@
   margin-top: 5px;
   margin-left: 10px;
   margin-right: 10px;
+  z-index: -1;
+}
+#speech2 p strong {
+  z-index: -1;
 }
 
 #arrow {
@@ -193,6 +205,7 @@
           animation-fill-mode: none;
   -webkit-animation-name: bounce-top;
           animation-name: bounce-top;
+  z-index: -1;
 }
 @-webkit-keyframes bounce-top {
   0% {
@@ -532,7 +545,7 @@
 .project-bloc .preview .windows {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: start;
   background-color: #ffffff;
   border-radius: 3px;
@@ -625,6 +638,7 @@ body {
   left: 0;
   /*Ombre du menu*/
   box-shadow: 0px 2px 3px 1px #2f2f2f;
+  z-index: 1;
 }
 
 #burger-menu {
@@ -807,110 +821,6 @@ footer div a i {
   vertical-align: text-top;
   color: #ffffff;
   margin-right: 15px;
-}
-
-/*Import des autres pages*/
-/*Import des variables mixin et media*/ /*Déclatation des variables*/
-/*Couleur*/
-/*Taille police*/
-/*variable global*/
-/*hauteur des zones de la page*/
-/*durée d'animation*/
-/*@mixin*/
-.box-signin {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-form label {
-  font-size: 20px;
-  align-self: start;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-form input {
-  font-size: 20px;
-  border: solid 3px;
-}
-form #btn-signin {
-  align-self: end;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding: 10px;
-  background-color: #474747;
-  color: #ffffff;
-  font-size: 20px;
-  border: solid 3px black;
-  cursor: pointer;
-}
-form #btn-signin:hover {
-  box-shadow: 0px 0px 6px 3px #bbbbbb;
-}
-form #btn-signin:active {
-  background-color: #232323;
-  box-shadow: 0px 0px 6px 3px #bbbbbb;
-}
-form .Err-msg {
-  background-color: #F7F7F7;
-  text-align: center;
-  width: 150%;
-}
-
-/*Import des variables mixin et media*/ /*Déclatation des variables*/
-/*Couleur*/
-/*Taille police*/
-/*variable global*/
-/*hauteur des zones de la page*/
-/*durée d'animation*/
-/*@mixin*/
-.box-signout {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
-.logout {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-}
-.logout p {
-  font-size: 20px;
-}
-.logout #btn-signout {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding: 10px;
-  background-color: #474747;
-  color: #ffffff;
-  font-size: 20px;
-  border: solid 3px black;
-  cursor: pointer;
-}
-.logout #btn-signout:hover {
-  box-shadow: 0px 0px 6px 3px #bbbbbb;
-}
-.logout #btn-signout:active {
-  background-color: #232323;
-  box-shadow: 0px 0px 6px 3px #bbbbbb;
-}
-.logout .Err-msg {
-  background-color: #F7F7F7;
-  text-align: center;
-  width: 150%;
 }
 
 /*Import des media-query*/

@@ -27,8 +27,13 @@
         },
         {
             "name": "Wordpress",
-            "lvl": "0",
+            "lvl": "50",
             "icon": "fa-brands fa-wordpress fa-2xl"
+        },
+        {
+            "name": "Reactjs",
+            "lvl": "65",
+            "icon": "fa-brands fa-react fa-2xl"
         }
     ]
 }

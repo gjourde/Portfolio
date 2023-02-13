@@ -40,6 +40,8 @@ body {
 
     /*Ombre du menu*/
     box-shadow: 0px 2px 3px 1px #2f2f2f;
+
+    z-index: 1;
 }
 
 #burger-menu {
@@ -231,10 +233,6 @@ footer {
         }
     }
 }
-
-/*Import des autres pages*/
-@import "login";
-@import "logout";
 
 /*Import des media-query*/
 @import "media";
