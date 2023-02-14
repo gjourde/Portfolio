@@ -99,6 +99,11 @@
         text-align: start;
         width: 80%;
         font-size: $taille-police-corps;
+
+        h5 {
+            font-size: $taille-police-corps+2;
+            margin-bottom: 5px;
+        }
     }
 
     &:hover {

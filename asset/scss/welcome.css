@@ -1,7 +1,5 @@
 @charset "UTF-8";
-
-/*Import des variables mixin et media*/
-/*Déclatation des variables*/
+/*Import des variables mixin et media*/ /*Déclatation des variables*/
 /*Couleur*/
 /*Taille police*/
 /*variable global*/
@@ -19,7 +17,6 @@
   min-height: 100vh;
   overflow: hidden;
 }
-
 .welcome .span-welcome {
   position: absolute;
   top: -64px;
@@ -35,44 +32,38 @@
   width: 100%;
   margin-bottom: 20px;
 }
-
 .presentation h1 {
   font-size: 36px;
   margin-bottom: 5px;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-delay: 0s;
   animation-name: slide1;
   text-align: center;
   width: 100%;
 }
-
 @keyframes slide1 {
   0% {
     transform: translateX(150vh);
   }
-
   100% {
     transform: translateX(0);
   }
 }
-
 .presentation h2 {
   font-size: 34px;
   margin-top: 5px;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-delay: 0.5s;
   animation-name: slide2;
   text-align: center;
   width: 100%;
 }
-
 @keyframes slide2 {
   0% {
     transform: translateX(150vh);
   }
-
   100% {
     transform: translateX(0);
   }
@@ -86,24 +77,21 @@
 
 #speech1 {
   margin-top: 15px;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-delay: 1s;
   animation-name: slide3;
   text-align: center;
   width: 100%;
 }
-
 @keyframes slide3 {
   0% {
     transform: translateX(150vh);
   }
-
   100% {
     transform: translateX(0);
   }
 }
-
 #speech1 p {
   font-size: 30px;
   margin-bottom: 5px;
@@ -114,24 +102,21 @@
 
 #speech2 {
   margin-top: 15px;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-delay: 1.5s;
   animation-name: slide4;
   text-align: center;
   width: 100%;
 }
-
 @keyframes slide4 {
   0% {
     transform: translateX(150vh);
   }
-
   100% {
     transform: translateX(0);
   }
 }
-
 #speech2 p {
   font-size: 30px;
   margin-bottom: 5px;
@@ -152,45 +137,33 @@
   animation-fill-mode: none;
   animation-name: bounce-top;
 }
-
 @keyframes bounce-top {
   0% {
     transform: translateY(-45px);
     animation-timing-function: ease-in;
   }
-
   40% {
     transform: translateY(-24px);
     animation-timing-function: ease-in;
   }
-
   65% {
     transform: translateY(-12px);
     animation-timing-function: ease-in;
   }
-
   82% {
     transform: translateY(-6px);
     animation-timing-function: ease-in;
   }
-
   93% {
     transform: translateY(-4px);
     animation-timing-function: ease-in;
   }
-
-  25%,
-  55%,
-  75%,
-  87% {
+  25%, 55%, 75%, 87% {
     transform: translateY(0px);
     animation-timing-function: ease-out;
   }
-
   100% {
     transform: translateY(0px);
     animation-timing-function: ease-out;
   }
-}
-
-/*# sourceMappingURL=welcome.css.map */
+}/*# sourceMappingURL=welcome.css.map */

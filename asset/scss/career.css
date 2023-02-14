@@ -112,6 +112,10 @@
   width: 80%;
   font-size: 20px;
 }
+.exp-bloc .description h5 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
 .exp-bloc:hover {
   box-shadow: 0px 0px 6px 3px #bbbbbb;
 }/*# sourceMappingURL=career.css.map */

@@ -41,7 +41,7 @@
 .presentation h1 {
   font-size: 36px;
   margin-bottom: 5px;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-delay: 0s;
   animation-name: slide1;
@@ -59,7 +59,7 @@
 .presentation h2 {
   font-size: 34px;
   margin-top: 5px;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-delay: 0.5s;
   animation-name: slide2;
@@ -83,7 +83,7 @@
 
 #speech1 {
   margin-top: 15px;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-delay: 1s;
   animation-name: slide3;
@@ -108,7 +108,7 @@
 
 #speech2 {
   margin-top: 15px;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-fill-mode: both;
   animation-delay: 1.5s;
   animation-name: slide4;
@@ -382,6 +382,10 @@
   text-align: start;
   width: 80%;
   font-size: 20px;
+}
+.exp-bloc .description h5 {
+  font-size: 22px;
+  margin-bottom: 5px;
 }
 .exp-bloc:hover {
   box-shadow: 0px 0px 6px 3px #bbbbbb;

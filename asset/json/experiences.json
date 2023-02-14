@@ -15,9 +15,39 @@
     ],
     "experiences": [
         {
+            "year": "2022<br>-<br>2023",
+            "name": "Développeur WEB Full-Stack, GAEA21, Genève",
+            "desc": [
+                {
+                    "txt": "Développement avec SYMFONY."
+                },
+                {
+                    "txt": "Développement de composant REACTJS."
+                },
+                {
+                    "txt": "Développement d’API."
+                },
+                {
+                    "txt": "Développement de nouvelle fonctionnalité et de sa version responsive mobile."
+                },
+                {
+                    "txt": "Développement en méthode Agile."
+                },
+                {
+                    "txt": "Maintenance et correctifs de bugs."
+                },
+                {
+                    "txt": "Travail en équipe."
+                }
+            ]
+        },
+        {
             "year": "2007<br>-<br>2019",
             "name": "Automaticien, SARL ARVEN, Valence",
             "desc": [
+                {
+                    "txt": "Gestion de projet."
+                },
                 {
                     "txt": "Analyser les besoins clients au niveau informatique industrielle."
                 },
@@ -28,10 +58,13 @@
                     "txt": "Rédiger l’analyse fonctionnelle en fonction du cahier des charges des clients."
                 },
                 {
-                    "txt": "Réaliser la supervision sous WINDEV."
+                    "txt": "Réaliser la supervision industrielle."
                 },
                 {
                     "txt": "Faire la recette des projets en fonction du cahier des charges avec les clients sur site."
+                },
+                {
+                    "txt": "Travail en équipe."
                 }
             ]
         }
